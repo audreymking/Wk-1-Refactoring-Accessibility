@@ -1,9 +1,11 @@
+/* adjusts top box size to cover full webpage*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*changes background color*/
 body {
     background-color: #d9dcd6; /*background*/
 }
