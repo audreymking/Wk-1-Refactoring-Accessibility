@@ -11,25 +11,26 @@ body {
 }
 
 /* formats full header on top*/
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-/*formats "Horizeon" in header*/
-.header h1 {
+/*formats "Horiseon" in header*/
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
 /*formats "seo" in header*/
-.header h1 .seo {
+header h1 .seo {
     color: #d9dcd6;
 }
 
-.header div {
+/*formats top right links- size, font, right side*/
+header div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -37,24 +38,25 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+/* Aligns links horizontally w/out bullet points*/
+header div ul li {
+    display: inline-block;
+    margin-left: 25px;
     list-style-type: none;
 }
 
-.header div ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
-
+/* font color for links on top right*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*adjusts font size for texts in paragraphs*/
 p {
     font-size: 16px;
 }
 
+/*controls image under header- spread across full webpage*/
 .hero {
     height: 800px;
     width: 100%;
@@ -64,23 +66,27 @@ p {
     background-position: center;
 }
 
+/*Formats Search Engine Optimization box to left, size*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*Formats Online Reputation Management box to right, size*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/*Formats boxes to sit along images*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.benefits {
+/*formats box on right side to make images and text sit in a column*/
+section {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -91,55 +97,28 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
-    margin-bottom: 32px;
+
+/* changes margin, color of right box*/
+.benefit-section  {
+    margin-bottom: 32px;          
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/* Formats headers for right box text- size, centered*/
+.benefit-section h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/*Formats right box images, applies space around images*/
+.benefit-section img{
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
+/* Formats blue text box on bottom left, spaces out text and images, adjusts font*/
+.media-section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -148,58 +127,26 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+/*adjusts size of bottom left images*/
+.media-section img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+/*controls text size for bottom left images*/
+.media-section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.footer {
+/*formats footer font, center with spacing*/
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+/* adjust font size of footer h2*/
+footer h2 {
     font-size: 20px;
 }
